@@ -11,7 +11,7 @@ class puppetntpmodule {
 
 
 # ntp service
-  service { 'ntp':
+  service { 'ntpd':
     ensure => running,
     enable => true,
   }
